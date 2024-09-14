@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= Rails.application.credentials.postgresql[:rails_max_threads] || 5 %>
+  url: <%= Rails.application.credentials.postgresql[:database_url] %>
+
+development:
+  <<: *default
+  url: <%= Rails.application.credentials.postgresql[:database_url_dev] %>
+
+test:
+  <<: *default
+  url: <%= Rails.application.credentials.postgresql[:database_url_test] %>
+
+production:
+  <<: *default
