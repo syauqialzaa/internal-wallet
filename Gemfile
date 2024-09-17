@@ -12,6 +12,8 @@ gem "bootsnap", require: false
 # jwt authentication
 gem "bcrypt", "~> 3.1", ">= 3.1.20"
 gem "jwt", "~> 2.8", ">= 2.8.2"
+
+# api dependencies
 gem "rack-cors", "~> 2.0", ">= 2.0.2"
 gem "active_model_serializers", "~> 0.10.14"
 
