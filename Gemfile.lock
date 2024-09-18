@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/syauqialzaa/latest_stock_price.git
+  revision: ac0b102f175280d96084bf28069f24ce3096bb7c
+  branch: main
+  specs:
+    latest_stock_price (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -195,6 +202,7 @@ DEPENDENCIES
   bootsnap
   byebug
   jwt (~> 2.8, >= 2.8.2)
+  latest_stock_price!
   pg (~> 1.1)
   puma (~> 5.0)
   rack-cors (~> 2.0, >= 2.0.2)
